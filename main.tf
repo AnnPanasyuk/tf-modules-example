@@ -4,13 +4,13 @@ bring up the whole infrastructure
 */
 
 module "dev" {
-  source = "environments/dev"
+  source = "./environments/dev"
 }
 
 module "staging" {
-  source = "environments/staging"
+  source = "./environments/staging"
 }
 
 module "production" {
-  source = "environments/production"
+  source = "./environments/production"
 }
